@@ -1,0 +1,251 @@
+{
+	"info": {
+		"_postman_id": "9fb6700b-582f-42fe-9fbd-9937c14b2eeb",
+		"name": "Ontime Playback",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15782331"
+	},
+	"item": [
+		{
+			"name": "Get playback status",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Pause playback",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:4001/playback/pause",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"playback",
+						"pause"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Stop playback",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:4001/playback/stop",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"playback",
+						"stop"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Set playback to \"Roll\"",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:4001/playback/roll",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"playback",
+						"roll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Move playback to previous event",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:4001/playback/previous",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"playback",
+						"previous"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Move playback to next event",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:4001/playback/next",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"playback",
+						"next"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Unload playback",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:4001/playback/unload",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"playback",
+						"unload"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Reload playback event",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:4001/playback/reload",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"playback",
+						"reload"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Start playback with current event",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:4001/playback/start",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"playback",
+						"start"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Start playback of given event",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:4001/playback/start",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"playback",
+						"start"
+					],
+					"query": [
+						{
+							"key": "eventId",
+							"value": "33907",
+							"disabled": true
+						},
+						{
+							"key": "eventIndex",
+							"value": "2",
+							"disabled": true
+						},
+						{
+							"key": "eventId",
+							"value": "invalid",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Load given event",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:4001/playback/load?eventIndex=invalid",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"playback",
+						"load"
+					],
+					"query": [
+						{
+							"key": "eventId",
+							"value": "33907",
+							"disabled": true
+						},
+						{
+							"key": "eventIndex",
+							"value": "4",
+							"disabled": true
+						},
+						{
+							"key": "eventId",
+							"value": "invalid",
+							"disabled": true
+						},
+						{
+							"key": "eventIndex",
+							"value": "20",
+							"disabled": true
+						},
+						{
+							"key": "eventIndex",
+							"value": "invalid"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
