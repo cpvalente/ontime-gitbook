@@ -4,7 +4,7 @@ description: Sync your rundown to a Google Sheet
 
 # Google Sheet
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Google sheet modal is available in the left app menu</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Google sheet modal is available in the left app menu</p></figcaption></figure>
 
 Ontime supports the syncing of the rundown to a google sheet
 
