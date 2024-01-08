@@ -47,6 +47,7 @@
 
 ## Features
 
+* [Google Sheet](features/google-sheet.md)
 * [Smart Time Entry](features/smart-time-entry.md)
 * [The delay workflow](features/the-delay-workflow.md)
 * [Roll](features/roll.md)
