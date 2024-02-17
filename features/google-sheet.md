@@ -6,7 +6,7 @@ description: Sync your rundown to a Google Sheet
 
 <figure><img src="../.gitbook/assets/sheetsmodal.png" alt=""><figcaption><p>Google sheet modal is available in the left app menu</p></figcaption></figure>
 
-Ontime supports the syncing of the rundown to a google sheet
+Ontime supports the syncing of the rundown to a Google Sheet
 
 You need to provide Ontime with the necessary permissions. From there, we can read and write to the Google Sheet spreadsheet.
 
@@ -17,7 +17,9 @@ This is ideal for collaboration or extensive data manipulation.
 {% hint style="info" %}
 **Spreadsheet template**
 
-By duplicating our template, you can get started quicker with using spreadsheets in Ontime.
+By duplicating our template, you can get started quicker by using spreadsheets in Ontime.
+
+See the [template here](https://docs.google.com/spreadsheets/d/1TYZhAELRFQa\_2QBO8Q651fMHdem6AXmFLjEDoksJd8Y/edit?usp=sharing)
 {% endhint %}
 
 ### Step 1 - Upload client secret
