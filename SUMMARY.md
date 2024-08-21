@@ -62,7 +62,7 @@
 * [Count to anything](features/count-to-anything.md)
 * [External data](features/external-data.md)
 
-## ❤ Additional Notes
+## ❤️ Additional Notes
 
 * [Control Ontime from vMix](additional-notes/control-ontime-from-vmix.md)
 * [Sync: Poll ontime status](additional-notes/sync-poll-ontime-status.md)

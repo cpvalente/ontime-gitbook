@@ -4,10 +4,16 @@ description: Documentation for ontime www.getontime.no
 
 # ontime
 
-{% hint style="info" %}
+
+
+{% hint style="danger" %}
 This information relates to version 2 of the app.
 
-You might be looking for the [v1 documentation](https://ontime.gitbook.io/v1/)
+
+
+You likely should be using the newest version of the app, and the [new docs](https://docs.getontime.no/)
+
+Alternatively you might be looking for the [v1 documentation](https://ontime.gitbook.io/v1/)
 
 
 
